@@ -113,9 +113,12 @@ margin: 1em;
 
 
 
-
-
 .globe:nth-child(2){
+    text-align: left;
+    padding: 25px;
+    }
+
+.globe:nth-child(3){
 text-align: left;
 padding: 25px;
 }
