@@ -112,11 +112,8 @@ margin: 1em;
 }
 
 
-.globe:first-child(3)
-{   
-margin: 30px;
-   
-}
+
+
 
 .globe:nth-child(2){
 text-align: left;
