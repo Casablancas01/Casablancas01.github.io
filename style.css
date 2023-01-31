@@ -1,0 +1,162 @@
+
+*{
+    box-sizing: border-box;   
+}
+html{
+    scroll-behavior: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-image: url("images/Fondo.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+h3{ font-size: 1.5em;}
+p{ font-size: 1em;}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #484e5e;  
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #f9edcb;
+    font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: #f9edcb;
+}
+
+#hero{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+}
+#hero.container{
+    padding: 100px 0px;
+}
+#hero h3{
+    color:#484e5e;  
+    text-align: start;
+    padding:none;
+
+}
+#about
+{
+    display: flex;
+}
+
+.texto-imagen p
+{
+text-align: left;
+margin: 1em;
+}
+
+  
+.circular-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;  
+    
+  }
+
+
+.globe{
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: #f9edcb;
+    margin: 30px;
+    
+}
+
+
+.color-trabajo{
+    color: #97a1b6;
+}
+#barra{
+    border-radius: 15px;
+    background-color: #484e5e;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+.globe:first-child(3)
+{   
+margin: 30px;
+   
+}
+
+.globe:nth-child(2){
+text-align: left;
+padding: 25px;
+}
+.img-contac {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-contac img{
+   
+    width: 35%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color:rgb(300,300,300);
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media(min-width:720px){
+   
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
