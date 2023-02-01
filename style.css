@@ -112,7 +112,12 @@ margin: 1em;
     padding: 10px 10px;
 }
 
-
+#language{
+   display: flex;
+   flex-direction:row;
+   text-align: left;
+   padding:25px;
+}
 #aptitudes{
     display:flex;
     flex-direction:row;
