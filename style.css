@@ -84,6 +84,7 @@ margin: 1em;
 
   
 .circular-image {
+    margin:30px 30px;
     border-radius: 50%;
     width: 200px;
     height: 280px;  
@@ -112,13 +113,19 @@ margin: 1em;
 }
 
 
+#aptitudes{
+    display:flex;
+    flex-direction:row;
+    padding:25px;
+    text-align: left;
+}
+#studies{
 
-.globe:nth-child(2){
     text-align: left;
     padding: 25px;
     }
 
-.globe:nth-child(3){
+#expe{
 text-align: left;
 padding: 25px;
 }
